@@ -1,0 +1,340 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #1b263b;
+    display: flex;
+
+}
+.logo{
+    font-size: 24px;
+    color: #fff;
+   display: inline-block;
+    padding: 16px;
+}
+.border{
+   border:  2px solid transparent;
+}
+
+.border :hover{
+   border:  2px solid white;
+}
+
+.con{
+    padding-top: 8px;
+    margin-left: 10px;
+  
+}
+#con{
+    color: #cccccc;
+    margin-left: 10px;
+}
+
+#lc{
+color: #fff;
+}
+
+.icon{
+    display: flex;
+    color: #fff;
+}
+
+.search{
+margin-left: 30px;
+width: 700px;
+display: flex;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+#isp{
+   padding-top: 10px;
+   color: #cccccc;
+   align-items: center;
+   padding-left: 4px;
+   size: 35px;
+}
+
+#si{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    color: #fff;
+}
+
+#fi{
+    color: #cccccc;
+    padding-right: 5px;
+}
+
+#flagi{
+    font-size: 18px;
+}
+
+.sign{
+    display: inline-block;
+    margin-left: 40px;
+    align-items: center;
+  padding-top: 10px;
+}
+
+#sig{
+    color: #cccccc;
+}
+#hello{
+    color: #fff;
+}
+
+.ret{
+    color: #fff;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.cart{
+    display: flex;
+    margin-left: 40px;
+    padding-top: 20px;
+    
+}
+
+#ci{
+    color: #cccccc;
+}
+
+#ch{
+    color: #fff;
+}
+
+/*sub nav*/
+
+.subnav{
+    background-color: #415a77;
+    height: 28px;
+}
+.men{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 5px;
+   
+
+}
+
+#bar{
+    color: #cccccc;
+    align-items: center;
+    
+   
+}
+.ah{
+    color: #fff;
+    padding-left: 5px;
+}
+
+.men h4{
+    color: #fff;
+    margin-left: 10px;
+}
+
+main{
+    background-color: #e0e1dd;
+    height: 100vh;
+}
+
+.wel{
+    height: 18px;
+    width: 950px;
+    background-color: #3f5283;
+    align-items: center;
+    margin-left: 280px;
+   
+}
+
+#welcome{
+    margin-left: 130px;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+}
+.subc{
+    height: 400px;
+    width: 300px;
+    background-color: #415a778c;
+    margin-left: 17px;
+    background-size: cover;
+   
+    
+}
+
+.tname{
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.baner{
+    height: 600px;
+   
+    background-image: url(baner.webp);
+    background-size: cover;
+   
+    
+}
+
+
+.shop-s{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9bc7db;
+    
+}
+
+.box{
+  
+    height: 400px;
+    width: 23%;
+    margin-top: 25px;
+    background-color: #e0e1dd;
+    border-radius: 5px;
+   
+}
+
+.boximg{
+   
+    height: 350px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box h2{
+    margin-left: 10px;
+    color:#000;
+}
+
+.box p{
+    margin-left: 10px;
+}
+
+footer{
+   
+    
+    background-color: #cccccc;
+}
+.info{
+    height: 100px;
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 600px;
+    
+}
+
+#ib{
+    margin-left: 70px;
+   padding: 5px;
+   background-color: orange;
+   color: #fff;
+   border: none;
+}
+
+#pi{
+    margin-left: 20px;
+}
+
+.foot{
+    background-color: #1b263b;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot p{
+    color: #fff;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+ul a{
+    display: block;
+    color: #cccccc;
+    margin-top: 10px;
+    
+}
+
+
+  
+
+.icc{
+    background-color: #1b263b;
+    display: flex;
+    justify-content: space-evenly;
+  
+  
+    
+}
+
+.icc h2{
+    color: #fff;
+}
+
+.ide{
+    display: flex;
+    border: 2px solid ;
+    color: #cccccc;
+    padding: 6px;
+}
+
+.cun{
+    display: flex;
+    border: 2px solid #fff;
+    color: #cccccc;
+    padding: 6px;
+}
+
+.spa{
+    height: 50px;
+    background-color: #1b263b;
+   
+}
+
+.spa a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1300px;
+    margin-top: 20px;
+}
+
+
+#map{
+    width: 50%;
+    height: 400px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.map{
+    background-color: #9bc7db;
+}
+
+.mapp{
+    float: right;
+    display: block;
+}
